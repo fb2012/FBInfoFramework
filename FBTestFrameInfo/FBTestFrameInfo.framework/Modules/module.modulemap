@@ -1,0 +1,6 @@
+framework module FBTestFrameInfo {
+  umbrella header "FBTestFrameInfo.h"
+
+  export *
+  module * { export * }
+}

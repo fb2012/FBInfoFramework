@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "TestFrameWork"
+  spec.name         = "FBTestFrameInfo"
   spec.version      = "0.0.1"
   spec.summary      = "Write the description between the DESC delimiters below"
 
@@ -89,11 +89,11 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "TestFrameWork", "TestFrameWork/TestFrameWork.framework/Headers/*.{h}"
+  spec.source_files  = "FBTestFrameInfo", "FBTestFrameInfo/FBTestFrameInfo.framework/Headers/*.{h}"
   #spec.exclude_files = "Classes/Exclude"
-   spec.vendored_frameworks = 'TestFrameWork/TestFrameWork.framework'
+   spec.vendored_frameworks = 'FBTestFrameInfo/FBTestFrameInfo.framework'
 
-   spec.public_header_files = "TestFrameWork/TestFrameWork.framework/Headers/*.{h}"
+   spec.public_header_files = "FBTestFrameInfo/FBTestFrameInfo.framework/Headers/*.{h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
