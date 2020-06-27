@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "FBTestFrameInfo"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "Write the description between the DESC delimiters below"
 
   # This description is used to generate tags and improve search results.
@@ -89,11 +89,11 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "FBTestFrameInfo", "FBTestFrameInfo/FBTestFrameInfo.framework/Headers/*.{h}"
+  #spec.source_files  = "FBTestFrameInfo", "FBTestFrameInfo/FBTestFrameInfo.framework/Headers/*.{h}"
   #spec.exclude_files = "Classes/Exclude"
    spec.vendored_frameworks = 'FBTestFrameInfo/FBTestFrameInfo.framework'
 
-   spec.public_header_files = "FBTestFrameInfo/FBTestFrameInfo.framework/Headers/*.{h}"
+   #spec.public_header_files = "FBTestFrameInfo/FBTestFrameInfo.framework/Headers/*.{h}"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
